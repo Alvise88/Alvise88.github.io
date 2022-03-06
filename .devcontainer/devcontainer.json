@@ -37,6 +37,8 @@
 		"bungcip.better-toml",
 		"davidanson.vscode-markdownlint",
 
+		"ms-azuretools.vscode-docker",
+
 		"vivaxy.vscode-conventional-commits"
 	],
 
