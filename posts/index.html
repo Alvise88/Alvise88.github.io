@@ -48,6 +48,20 @@ Posts
 <div class="bg-white mb3 pa4 gray overflow-hidden">
 <span class="f6 db">Posts</span>
 <h1 class="f3 near-black">
+<a href=/posts/swarm-ingresses/ class="link black dim">
+Swarm Ingresses
+</a>
+</h1><div class="nested-links f5 lh-copy nested-copy-line-height">
+In Kubernetes, we would consider a “service” to be a network entity that makes it possible to reach individual containers.
+In Swarm, however, a “service” means something completely different.
+A Swarm service is the equivalent of a container and all of the information needed to instantiate and run it.
+For example:
+version: '3' networks: default: external: false services: whoami: image: traefik/whoami networks: - default deploy: replicas: 3There are two types of Swarm services.
+</div></div></div></div><div class="relative w-100 w-30-l mb4 bg-white">
+<div class="relative w-100 mb4 bg-white nested-copy-line-height">
+<div class="bg-white mb3 pa4 gray overflow-hidden">
+<span class="f6 db">Posts</span>
+<h1 class="f3 near-black">
 <a href=/posts/twelve-factor-app/ class="link black dim">
 Twelve Factor App
 </a>
