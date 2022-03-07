@@ -61,6 +61,8 @@ docker-compose.yml defines a collection of services, each one with its own image
 
 With this tool you can say that your application has a both a web and worker process.  
 
+<!--adsense-->
+
 ## Let's do it
 
 Let's now define a simple application that we'll try to develop with the tools and practices we just discussed.  
