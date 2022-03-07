@@ -59,11 +59,11 @@ Using traefik with swarm allows you to define ingresses dynamically.
 
 The idea is to have a main load balancer/proxy that covers all the Docker Swarm cluster and handles HTTPS certificates and requests for each domain.
 
-But doing it in a way that allows you to have other Traefik services inside each stack without interfering with each other, to redirect based on path in the same stack (e.g. one container handles / for a web frontend and another handles /api for an API under the same domain), or to redirect from HTTP to HTTPS selectively.
+But doing it in a way that allows you to have other Traefik services inside each stack without interfering with each other, to redirect based on path in the same stack (e.g. one container handles / for a web frontend and another handles /api for an API under the same domain), or to redirect from HTTP to HTTPS selectively.  
 
 <!--adsense-->
 
-Preparation:
+Preparation:  
 
 * Connect via SSH to a manager node in your cluster (you might have only one node) that will have the Traefik service.
 * Create a network that will be shared with Traefik and the containers that should be accessible from the outside, with:

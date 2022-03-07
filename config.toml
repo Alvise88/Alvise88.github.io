@@ -30,6 +30,11 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   recent_posts_number = 3
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params.adsense]
 client = "ca-pub-9427303175814531"
 inArticleSlot = "9427303175814531"
