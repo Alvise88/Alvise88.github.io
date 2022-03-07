@@ -31,7 +31,7 @@ Additionally there is the Dockerfile ENV instruction and the docker run –env
 
 ## VII. Port binding — Export services via port binding
 
-Containers rely heavily on port binding. 
+Containers rely heavily on port binding.  
 
 compose.yml has a [ports array](https://github.com/compose-spec/compose-spec/blob/master/spec.md#ports) that explicitly defines a HOST:CONTAINER port mapping.  
 docker run -p HOST:CONTAINER lets you define this at runtime.  
@@ -197,9 +197,9 @@ services:
     environment:
       MYSQL_DATABASE: 'movies'
       # So you don't have to use root, but you can if you like
-      MYSQL_USER: 'user'
+      MYSQL_USER: 'admin'
       # You can use whatever password you like
-      MYSQL_PASSWORD: 'password'
+      MYSQL_PASSWORD: 's3cret'
       # Password for root access
       MYSQL_ROOT_PASSWORD: 'password'
     ports:
